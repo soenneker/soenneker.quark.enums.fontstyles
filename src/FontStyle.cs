@@ -1,7 +1,7 @@
 ﻿using Intellenum;
 using Soenneker.Quark.Enums.GlobalKeywords;
 
-namespace Soenneker.Quark.Enums.FontStyles;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// An HTML CSS in a .NET enumeration form
