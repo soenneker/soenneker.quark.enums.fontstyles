@@ -6,6 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// An HTML CSS in a .NET enumeration form
 /// </summary>
 [EnumValue<string>]
+[IncludeEnumValues(typeof(GlobalKeyword))]
 public partial class FontStyleKeyword
 {
     /// <summary>
@@ -17,6 +18,4 @@ public partial class FontStyleKeyword
     /// Normal (non-italic) text.
     /// </summary>
     public static readonly FontStyleKeyword Normal = new("normal");
-
-    public static implicit operator FontStyleKeyword(GlobalKeyword style) => new(style.Value); // Value is the underlying string
 }
