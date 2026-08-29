@@ -3,11 +3,16 @@
 [![](https://img.shields.io/nuget/dt/soenneker.quark.enums.fontstyles.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.quark.enums.fontstyles/)
 [![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.quark.enums.fontstyles/codeql.yml?label=CodeQL&style=for-the-badge)](https://github.com/soenneker/soenneker.quark.enums.fontstyles/actions/workflows/codeql.yml)
 
-# ![](https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png) Soenneker.Quark.Enums.FontStyles
-### An HTML CSS in a .NET enumeration form
+# Soenneker.Quark.Enums.FontStyles
 
-## Installation
+An HTML CSS in a .NET enumeration form.
 
-```
+## Install
+
+```bash
 dotnet add package Soenneker.Quark.Enums.FontStyles
 ```
+
+## What you get
+
+- `FontStyleKeyword` — An HTML CSS in a .NET enumeration form.
