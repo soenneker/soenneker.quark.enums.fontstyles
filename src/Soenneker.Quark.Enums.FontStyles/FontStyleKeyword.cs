@@ -3,7 +3,7 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Quark;
 
 /// <summary>
-/// An HTML CSS in a .NET enumeration form
+/// Represents a CSS <c>font-style</c> keyword.
 /// </summary>
 [EnumValue<string>]
 [IncludeEnumValues(typeof(GlobalKeyword))]
